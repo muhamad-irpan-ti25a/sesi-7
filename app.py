@@ -1,9 +1,8 @@
-for i in range(1, 4, +1):
-    for x in range(1,6, +1):
+for i in range(1, 6, +2):
+    for x in range(5):
         print(i, end=" ")
         
         i += 1
-        x += 1
     print()
 
 for i in range(4):
@@ -39,4 +38,23 @@ for c in range(1,6,+2) :
 for b in range(4, 1) :
     for v in range(7):
         print(b+1, end=" ")
+    print()
+
+for i in range(6, 3, -1):
+    for x in range(4):
+        print(i-2*x, end=" ")
+    print()
+
+for i in range(1, 6):
+    for x in range(1, i+1):
+        print(x, end=" ")
+
+
+    print()
+
+print()
+
+for i in range(5, 0, -1):
+    for x in range(1, i+1):
+        print(x, end=" ")
     print()
