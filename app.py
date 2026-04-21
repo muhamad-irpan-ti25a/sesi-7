@@ -1,3 +1,16 @@
+for i in range(1, 4, +1):
+    for x in range(1,6, +1):
+        print(i, end=" ")
+        
+        i += 1
+        x += 1
+    print()
+
+for i in range(4):
+    for x in range(8,-1,-2):
+        print(x, end=" ")
+    print()
+
 for i in range(4):
     for x in range(6,-1,-1):
         print(x, end=" " )
